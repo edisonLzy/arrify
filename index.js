@@ -1,4 +1,4 @@
-export default function arrify(value) {
+    export default function arrify(value) {
 	if (value === null || value === undefined) {
 		return [];
 	}
@@ -17,3 +17,4 @@ export default function arrify(value) {
 
 	return [value];
 }
+

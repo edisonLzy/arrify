@@ -31,3 +31,5 @@ expectAssignable<number[] | Array<string | boolean>>(
 expectAssignable<number[] | [boolean] | [string]>(
 	arrify(false ? [1, 2] : (false ? true : '🦄'))
 );
+
+
